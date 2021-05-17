@@ -1,0 +1,36 @@
+body {
+    background: #4a503d;
+}
+
+.clock {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+}
+.head 
+{
+    font-family: 'Stylish', sans-serif;
+    text-align: center;
+    color: #e28f83;
+    font-size: 60px;
+   
+}
+.sub {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #da7f8f;
+    font-size: 40px;
+    font-family: 'Stylish', sans-serif;  
+}
+.smile
+{
+ color:yellow;
+}

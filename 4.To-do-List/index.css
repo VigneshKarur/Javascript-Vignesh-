@@ -1,0 +1,33 @@
+body
+{
+ background-color:#334443
+}
+.outer
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 40%;
+}
+.error
+{
+ font-size:2Rem;
+ font-family: 'Stylish', sans-serif;  
+ color:#e1701a;
+}
+.task
+{
+  font-family: 'Stylish', sans-serif;  
+  color:#e1701a;
+  font-size:1.5Rem;
+  list-style-type:none;
+}
+.head 
+{
+    font-family: 'Stylish', sans-serif;
+    text-align: center;
+    color: #e28f83;
+    font-size: 60px;
+   
+}

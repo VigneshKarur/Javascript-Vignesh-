@@ -1,0 +1,65 @@
+body {
+background:#564a4a;
+font-family: 'Stylish', sans-serif;
+height:100%;
+}
+.wrapper {
+width: 800px;
+margin: 30px auto;
+color:$white;
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: 'Stylish', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  color:#fdca40;
+}
+
+#seconds, #tens{
+  font-size:2em;
+}
+#button-start
+{
+ background:#114e60;
+ color: yellow;
+}
+#button-stop
+{
+ background:#114e60;
+ color: yellow;
+}
+#button-reset
+{
+ background:#114e60;
+ color: yellow;
+}
+#button-start:hover
+{
+ background:black;
+ color: yellow;
+}
+#button-stop:hover
+{
+ background:black;
+ color: yellow;
+}
+#button-reset:hover
+{
+ background:black;
+ color: yellow;
+}
+
+button{
+@include corners (5px);
+border: solid 1px $white;
+text-decoration:none;
+cursor:pointer;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+outline: none;
+}
